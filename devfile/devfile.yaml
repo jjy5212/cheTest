@@ -1,11 +1,12 @@
 apiVersion: 1.0.0
 metadata:
-  generateName: che_springbootTest71wb
+  name: che_springbootTestone71wb
 projects:
   - name: che_springbootTest
     source:
-      location: 'https://github.com/jjy5212/che_springbootTest.git'
-      type: github
+      location: 'https://jjy5212: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@github.com/jjy5212/che_springbootTest.git'
+      startPoint: master
+      type: git
 components:
   - id: redhat/java/latest
     type: chePlugin
